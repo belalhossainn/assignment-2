@@ -239,6 +239,151 @@
   font-size: 24px;
 }
 
+/* Our Story section */
+.our-story-section {
+  margin-top: 80px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background:
+    linear-gradient(to top, rgb(243, 214, 165), rgb(255, 255, 255)),
+    url('/assets/bg.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.story-container {
+  text-align: center;
+  justify-content: center;
+}
+
+.story-title {
+  font-size: 2.875rem;
+  font-weight: bold;
+  padding-top: 60px;
+  margin-bottom: 80px;
+}
+
+.story-1 {
+  width: 540px;
+  height: 550px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 16px;
+  margin-left: 22px;
+  margin-bottom: 80px;
+}
+
+/* for all image */
+.story-img {
+  width: 100%;
+  height: auto;
+  border-radius: 16px 16px 0 0;
+}
+
+.story-1-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  width: 402.49px;
+  height: 69.98px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+  padding-left: 36px;
+}
+
+.story-1-des {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(102, 102, 102, 1);
+  width: 433.06px;
+  height: 75.74px;
+  text-align: left;
+  padding-left: 36px;
+}
+
+.story-button {
+  font-size: 15.34px;
+  font-weight: 500;
+  background-color: #3CD8E8;
+  border: none;
+  padding: 11px 19px;
+  border-radius: 47.93px;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-100%, -50%);
+}
+
+
+/* story-sub-container */
+.story-sub-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 601px;
+  width: 540px;
+  height: 550px;
+  margin-left: 18px;
+  margin-right: 22px;
+  gap: 18px;
+  border-radius: 16px;
+}
+
+.story-card {
+  width: 261px;
+  background-color: #FFFFFF;
+  border-radius: 16px;
+  border: 1px solid white;
+  font-size: 15px;
+}
+
+.story-card-1 {
+  border: 1px solid white;
+}
+
+.story-sub-container-text {
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 36px;
+  color: #000000;
+  text-align: left;
+  margin-top: 8px;
+  width: 210px;
+}
+
+.story-sub-container-btn {
+  font-size: 14px;
+  font-weight: 500;
+  background-color: rgba(149, 178, 38, 1);
+  padding: 8px 18px;
+  border-radius: 47.93px;
+  border: none;
+  color: #FFFFFF;
+  top: 50%;
+  left: 50%;
+  transform: translate(-10%, -50%);
+}
+
+.btn-2 {
+  background-color: #5D58F0;
+}
+
+.btn-4 {
+  font-size: 10px;
+  padding: 9px 09px;
+  top: 20%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+
+/* story ending button */
+.story-btn {
+  background-color: #000;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
 
 
 
