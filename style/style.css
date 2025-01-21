@@ -153,6 +153,7 @@
 .Standard-sub-title{
   font-size: 1.5rem;
   font-weight: bold;
+  margin-top: 32px;
 }
 
 .Standard-short-description{
@@ -166,6 +167,7 @@ margin-bottom: 32px;
 .standard-btn{
   font-size: 0.9rem;
   font-weight: bold; 
+  border: none;
 }
 
 .btn-color{
@@ -174,6 +176,28 @@ margin-bottom: 32px;
 
 .Standard-sub-container{
   max-width: 367px;
+}
+
+.sub-container-1{
+  background: linear-gradient(to bottom, rgba(222, 245, 255, 1), rgba(255, 255, 255, 0));
+  box-shadow: 4px, 4px, 28.3, 0.95, rgba(0, 0, 0, 0.05);
+  border-radius: 19px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 50px;
+}
+.sub-container-2{
+  background: linear-gradient(to bottom, #FFF4DC, rgba(255, 255, 255, 0));
+  box-shadow: 4px, 4px, 28.3, 0.95, rgba(0, 0, 0, 0.05);
+  border-radius: 19px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 50px;
+}
+.sub-container-3{
+  background: linear-gradient(to bottom, #F2E8FF, #FFFFFF);
+  box-shadow: 4px, 4px, 28.3, 0.95, rgba(0, 0, 0, 0.05);
+  border-radius: 19px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 50px;
 }
 
 
