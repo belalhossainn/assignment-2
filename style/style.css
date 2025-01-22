@@ -246,9 +246,8 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  background:
-    linear-gradient(to top, rgb(243, 214, 165), rgb(255, 255, 255)),
-    url('/assets/bg.png');
+  background-image: linear-gradient(to top, rgb(243, 214, 165), rgb(255, 255, 255)),
+    url('../assets/bg.png');
   background-size: cover;
   background-position: center;
 }
@@ -384,6 +383,69 @@
   font-weight: bold;
   margin-bottom: 60px;
 }
+
+/* Footer section style */
+.footer{
+  background-color: rgba(1, 172, 253, 1);
+  width: 100%;
+  height: 460px;
+  justify-content: space-around;
+  padding-top: 100px;
+}
+
+.footer-img{
+  background-color: white;
+  margin-right: 10px;
+}
+
+.footer-logo-title{
+  font-size: 2.1rem;
+  font-weight: bold;
+  color: hsl(0, 0%, 100%);
+  margin-top: 10px;
+  width: 230px;
+  line-height: 30px;
+}
+
+.footer-section-description{
+font-size: 1.2rem;
+font-weight: 400;
+color: #FFFFFF;
+width: 380px;
+margin-top: 35px;
+}
+
+/* footer-section-2 */
+.footer-section-2-title{
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.footer-section-2-list{
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #FFFFFF;
+  list-style: none;
+  padding-top: 20px;
+}
+
+.list-item{
+  text-decoration: none;
+  color: white;  
+}
+
+/* footer-section-3 */
+.footer-section-3-title{
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.footer-section-3-img{
+  margin-top: 10px;
+}
+
+
 
 
 
