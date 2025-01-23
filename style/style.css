@@ -105,7 +105,7 @@
 
 /* hero section style */
 .hero {
-  width: 1158px;
+  max-width: 1158px;
   gap: 50px;
   margin: auto 96px;
 }
@@ -118,12 +118,14 @@
   font-size: 4rem;
   font-weight: bold;
   color: black;
+  /* max-width: 640px; */
 }
 
 .hero-description {
   font-size: 1.25rem;
   font-weight: 400;
   margin-top: 22px;
+  /* max-width: 640px; */
 }
 
 .hero-btn {
@@ -144,7 +146,7 @@
 }
 
 .Standard-container {
-  width: 1160px;
+  max-width: 1160px;
   justify-content: center;
   gap: 25px;
   margin: 95px 95px;
@@ -180,7 +182,7 @@
 }
 
 .Standard-sub-container {
-  width: 370px;
+  max-width: 370px;
   height: 450px;
 }
 
@@ -262,7 +264,7 @@
 }
 
 .story-1 {
-  width: 540px;
+  max-width: 540px;
   height: 550px;
   border: 1px solid rgba(255, 255, 255, 1);
   background-color: rgba(255, 255, 255, 1);
@@ -513,36 +515,38 @@
   }
 
   .hero-img {
-    width: 32%;
+    width: 90%;
     justify-items: center;
     text-align: center;
-    margin-left: 27px;
-  }
-
-  .hero-title {
-    font-size: 35px;
-    font-weight: bold;
-    width: 90%;
-    text-align: center;
-    margin-left: 25px;
+    margin-left: 21px;
   }
 
   .hero-text {
     text-align: center;
     width: 35%;
     font-size: 30px;
+    width: 80%;
+  }
+
+  .hero-title {
+    font-size: 30px;
+    font-weight: bold;
+    width: 90%;
+    text-align: center;
+    margin-left: 40px;
   }
 
   .hero-description {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     width: 100%;
-    margin-left: 25px;
+    margin-left: 40px;
   }
 
   .hero-btn {
     justify-content: center;
     padding: 14px 30px;
+    margin-left: 50px;
   }
 
   /* standard section responsive */
