@@ -312,6 +312,10 @@
   transform: translate(-100%, -50%);
 }
 
+.story-button:hover{
+  background-color: grey;
+}
+
 
 /* story-sub-container */
 .story-sub-container {
@@ -358,6 +362,10 @@
   top: 50%;
   left: 50%;
   transform: translate(-10%, -50%);
+}
+
+.story-sub-container-btn:hover{
+  background-color: grey;
 }
 
 .btn-2 {
